@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "CollabLobbyUI",
+  "version": "1.0.9",
+  "mode": "local-rebuild",
+  "archive": {
+    "path": "CollabLobbyUI.zip",
+    "sha256": "c2d48f8b59acbcf88f788f1c466a4645f5876d7575969643bf171e263934bca4",
+    "downloadUrl": "https://gamebanana.com/mmdl/1308208",
+    "fileId": 1308208
+  },
+  "originalAssembly": {
+    "entry": "CollabLobbyUI.dll",
+    "sha256": "51950c3e2c70fc13fca2f6c4a300006eedce01ef22c8a34ddd81d13e560aa29d"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "upstream": "https://gamebanana.com/mods/429997",
+  "recipe": "Recipe/recipe.json",
+  "assemblyName": "Celeste.Mods.CollabLobbyUi",
+  "dependencies": [],
+  "decompileTypes": [
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.CollabLobbyUIModule",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/CollabLobbyUIModule.cs",
+      "sha256": "dbfc8ce8b355ba7c77869629dae2da6273a46295d5b4855e10c6c49d4cd98146"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.CollabLobbyUIMeta",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/CollabLobbyUIMeta.cs",
+      "sha256": "296d6d5a1a617e390895241785ae51c327411aa30726ad98534b2253030d759b"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.CollabLobbyUISettings",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/CollabLobbyUISettings.cs",
+      "sha256": "2ceaf43a697f14cda113c06f4664dc0c5f620a3a1063c90c629ac528b4797738"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.CollabLobbyUIUtils",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/CollabLobbyUIUtils.cs",
+      "sha256": "670b46e8fac1389903d9644b7195090d0a8f51a5ce2e345ade09844a79294df3"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.ComparableExtensions",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/ComparableExtensions.cs",
+      "sha256": "66dbbf961cc7a6c6b82216fe6cdaa16cdcb2d9cd05be501f7dad7f049473fc9e"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.MTextureExtensions",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/MTextureExtensions.cs",
+      "sha256": "e09ac0ce165420262598442ed25de887d439b163f09d65ecec4866e76f10c66c"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.CollabMapDataProcessor",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/CollabMapDataProcessor.cs",
+      "sha256": "3095440b6eba3e3db337eb0e4ca74e0063e85b508e1b7239df650200a2817cd0"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.DebugCommands",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/DebugCommands.cs",
+      "sha256": "6a6923786a83ee5bdf0189e4ccfc7213e10ff6fab85e067befea7fb622d2c91f"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.DebugComponent",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/DebugComponent.cs",
+      "sha256": "bd46b19daee390c73815b4df6f75f7f5e068d7214dfd6ba79a755e6a04cb5540"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.InputRepeatDelay",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/InputRepeatDelay.cs",
+      "sha256": "8b5416f43de699d1272b8664d49b06b588bbccdd81eaae39bdad005d112e3a13"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavMenu",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavMenu.cs",
+      "sha256": "e30423df0c2995869987c4e0497c3c34cc4f14b644ba8e812a9e65c9745a30d1"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavPointer",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavPointer.cs",
+      "sha256": "f0c90056aa78ae4c64968e8467f0283500b6d3210c82dfddecf8460d1c9e8044"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavComparerIcons",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavComparerIcons.cs",
+      "sha256": "52089fe4c083ef97281983a9bc45cae0eeb5670a8f48ffde597d49ca99ed34aa"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavComparerSIDs",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavComparerSIDs.cs",
+      "sha256": "4b310d13b43867a9b012c5f54f3c93ab65d95a2bfa27290f3c25a9e8b77d10b0"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavComparerProgress",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavComparerProgress.cs",
+      "sha256": "67622fe90a3bff4035a7ece53ae230807b98bfc92b25fe190ba2ecf2003407be"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavComparerNames",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavComparerNames.cs",
+      "sha256": "722fa719ec369c5b06fb0f1389e125cf9dedf49c4840f4e66956e3d2a4918c62"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.NavComparerOtherRooms",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/NavComparerOtherRooms.cs",
+      "sha256": "62c8b773b065218985605ce1ff2f5f091cc0dc4b683052134b94b7b724a0f55f"
+    },
+    {
+      "name": "Celeste.Mod.CollabLobbyUI.Entities.PauseUpdateOverlay",
+      "path": "CollabLobbyUI/Celeste/Mod/CollabLobbyUI/Entities/PauseUpdateOverlay.cs",
+      "sha256": "cdcb59f795c126c0f022f8d5ce3ab0ea4d352ed60727e360039693a29c3f0732"
+    }
+  ]
+}
